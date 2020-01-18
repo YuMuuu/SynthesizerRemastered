@@ -4,7 +4,7 @@ import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class SynthsizerRemastered {
+public class SynthesizerRemastered {
     private boolean shouldGenerate;
     private int wavePos;
 
@@ -20,7 +20,7 @@ public class SynthsizerRemastered {
         return s;
     });
 
-    SynthsizerRemastered() {
+    SynthesizerRemastered() {
         frame.addKeyListener(new KeyListener() {
             @Override
             public void keyTyped(KeyEvent e) {

@@ -88,7 +88,7 @@ class AudioThread extends Thread {
 
     private void bufferSamples(short[] samples) {
         int buf = buffers[bufferIndex++];
-        alBufferData(buf, AL_FORMAT_STEREO16, samples, SynthsizerRemastered.AudioInfo.SAMPLE_RATE);
+        alBufferData(buf, AL_FORMAT_STEREO16, samples, SynthesizerRemastered.AudioInfo.SAMPLE_RATE);
         alSourceQueueBuffers(source, buf);
         bufferIndex %= BUFFER_COUNT;
     }
