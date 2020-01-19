@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class SynthControlContainer extends JPanel {
+    protected Point mouseClickLocation;
     protected boolean on;
     private SynthesizerRemastered synth;
 
